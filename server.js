@@ -42,7 +42,7 @@ const getResponse = async (prompt) => {
       logprobs: 0,
       top_p: 1
     });
-    console.log(completion.data.choices[0].text);
+    console.log(prompt, completion.data.choices[0].text);
     return completion.data.choices[0].text;
   } catch (error) {
     console.log(error.message);
