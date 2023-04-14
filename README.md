@@ -10,8 +10,8 @@ This project requires both a Twilio and OpenAI account.
 Server setup instructions:
 - Open the terminal and change the working directory to where you want the cloned repository (ex. `cd ~/Desktop`).
 - Clone repository: `git clone https://github.com/karamvirr/chatgpt-sms.git`
-- From the root, create a `.env` containing your OpenAI API KEY `OPENAI_API_KEY` and server port number `PORT` (port 3000 is used if not set).
 - Change the working directory to the cloned repo: `cd chatgpt-sms`
+- From the root, create a `.env` containing your OpenAI API KEY `OPENAI_API_KEY` and server port number `PORT` (port 3000 is used if not set).
 - Install dependencies: `npm install`
 - Run server: `node server.js`
 
